@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Taj Radiance Survey Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" href="images/Tajlogo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="allPage">
+            <header>
+                <div class="navbar">
+                    <ul>
+                        <li><a href ="project.html"><img style="height: 15px; width: 15px;" src="images/home.png" alt="Home"></a></li>
+                        <li><a href ="services.html">Services</a>
+                        <ul class="dropdown">
+                            <li><a href ="services.html">Services</a></li>
+                            <li><a href ="massage.html">Massage</a></li>
+                            <li><a href ="facial.html">Facial</a></li>
+                            <li><a href ="nail.html">Nail Treatment</a></li>
+                        </ul>
+                        <li><a href ="appointment.html">Appointment</a></li>
+                        <li><a href ="survey.html">Survey</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
+                <a href="project.html"><img src="images/Tajbanner.jpg" alt="Taj Radiance Logo" width="1650" height="300"></a>
+            </header>
+            <br>
+            <main>
+                <form action="mailto:adivkar@my.centennialcollege.ca" method="get">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <table>
+                            <tr>
+                                <td class="fieldLabel">First Name:</td>
+                                <td><input type="text" name="fname" size="25" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="fieldLabel">Last Name:</td>
+                                <td><input type="text" name="lname" size="25" tabindex="3"></td>
+                            </tr>
+                            <tr>
+                                <td class="fieldLabel">Age:</td>
+                                <td><input type="number" name="age" size="5" tabindex="5"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <tr>
+                            <td>
+                                <label for="telephone">Phone Number</label>
+                                <input type="tel" name="telephone" placeholder="(###) ###-####" size="30" tabindex="7" id="telephone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fieldLabel">Email:</td>
+                            <td><input type="text" name="email" placeholder="janedoe@gmail.com"size="30" tabindex="9"></td>
+                        </tr>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Services</legend>
+                        <tr>
+                            <td><input type="checkbox" name="chkOS" value="OS" tabindex="25">Massage
+                            <input type="checkbox" name="chkNet" value="Net" tabindex="27">Facial
+                            <input type="checkbox" name="chkProg" value="Prog" tabindex="29">Manicure
+                            <input type="checkbox" name="chkWeb" value="Web" tabindex="31">Pedicure
+                            </td>
+                        </tr>
+                    </fieldset>
+                </table>
+                    <h4>Additional Comments</h4>
+                    <p><textarea></textarea></p>
+                    <p>
+                        <input type="submit" value="Complete Registration" tabindex="39" name="submit">
+                        <input type="reset" name="reset" value="Start Again" tabindex="41">
+                    </p>
+                </form>
+            </main>
+        </div>
+    </body>
+
+</html>

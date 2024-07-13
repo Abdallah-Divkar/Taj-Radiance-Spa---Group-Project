@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>WRTC Membership Application</title>
+        <meta charset="utf-8">
+        <!--Created by Abdallah Divkar -- Created on 2 February -->
+        <link rel="stylesheet" href="assignment4Styles.css" type="text/css">
+        <link rel="icon" href="images/wrtclogo.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div id="allPage">
+            <header>
+                <ul class="navbar">
+                    <li class="nav"><a class="element" href ="index.html"><img style="height: 15px; width: 15px;" src="images/home.png" alt="Home"></a></li>
+                    <li class="nav"><a class="element" href ="assignment2.html">Assignment-2</a></li>
+                    <li class="nav"><a class="element" href ="Assignment3.html">Assignment-3</a></li>
+                    <li class="nav"><a class="element" href ="Assignment4.html">Assignment-4</a></li>
+                    <li class="nav"><a class="element" href ="project.html">Project</a></li> 
+                </ul>
+              <a href="https://wrtctennis.com/"><img src="images/wrtc.png" width="974" height="300" alt="WRTC Logo"/></a>
+              <h1 class="center">West Rouge Tennis Club 2024</h1>
+            </header>
+            <main>
+                <form action="mailto:adivkar@my.centennialcollege.ca" method="post">
+                    <fieldset>
+                        <legend>Personal Informatiom</legend>
+                        <table>
+                            <tr>
+                                <td class="center">Family Name</td>
+                                <td class="center">Given Name</td>
+                                <td class="center">Age if Jr***</td>
+                                <td class="center">STF****</td>
+                                <td class="center">Email</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="fname" size="25" tabindex="1" id="fname"></td>
+                                <td><input type="text" name="gname" size="25" tabindex="3" id="gname"></td>
+                                <td class="center"><input type="number" name="Age" size="15" min="1" max="16" tabindex="5" id="age"></td>
+                                <td>
+                                    <input type="radio" name="stfopt" value="Y" tabindex="7">Yes
+                                    <input type="radio" name="stfopt" value="N" tabindex="9">No
+                                </td>
+                                <td><input type="email" name="email" size="25" tabindex="11" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="fname" size="25" tabindex="13" id="fname"></td>
+                                <td><input type="text" name="gname" size="25" tabindex="15" id="gname"></td>
+                                <td class="center"><input type="number" name="Age" size="17" min="1" max="16" tabindex="5" id="age"></td>
+                                <td>
+                                    <input type="radio" name="stfopt" value="Y" tabindex="19">Yes
+                                    <input type="radio" name="stfopt" value="N" tabindex="21">No
+                                </td>
+                                <td><input type="email" name="email" size="25" tabindex="23" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="fname" size="25" tabindex="25" id="fname"></td>
+                                <td><input type="text" name="gname" size="25" tabindex="27" id="gname"></td>
+                                <td class="center"><input type="number" name="Age" size="29" min="1" max="16" tabindex="5" id="age"></td>
+                                <td>
+                                    <input type="radio" name="stfopt" value="Y" tabindex="31">Yes
+                                    <input type="radio" name="stfopt" value="N" tabindex="33">No
+                                </td>
+                                <td><input type="email" name="email" size="25" tabindex="35" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="fname" size="25" tabindex="37" id="fname"></td>
+                                <td><input type="text" name="gname" size="25" tabindex="39" id="gname"></td>
+                                <td class="center"><input type="number" name="Age" size="15" min="1" max="16" tabindex="41" id="age"></td>
+                                <td>
+                                    <input type="radio" name="stfopt" value="Y" tabindex="43">Yes
+                                    <input type="radio" name="stfopt" value="N" tabindex="45">No
+                                </td>
+                                <td><input type="email" name="email" size="25" tabindex="47" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="fname" size="25" tabindex="49" id="fname"></td>
+                                <td><input type="text" name="gname" size="25" tabindex="51" id="gname"></td>
+                                <td class="center"><input type="number" name="Age" size="15" min="1" max="16" tabindex="53" id="age"></td>
+                                <td>
+                                    <input type="radio" name="stfopt" value="Y" tabindex="55">Yes
+                                    <input type="radio" name="stfopt" value="N" tabindex="57">No
+                                </td>
+                                <td><input type="email" name="email" size="25" tabindex="59" id="email"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <table>
+                            <tr class="center">
+                                <td name="requests" cols="50" rows="7" tabindex="61">
+                                    <label for="address">Address</label>
+                                    <input type="text" name="address" size="35" tabindex="62" id="address">
+                                </td>
+                                <td>
+                                    <label for="telephone">Telephone</label>
+                                    <input type="tel" name="telephone" size="30" tabindex="5" id="telephone">
+                                </td>
+                            </tr>    
+                            <tr>
+                                <td>
+                                    <label for="pcode">Postal Code</label>
+                                    <input type="text" name="pcode" size="10">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Membership Information</legend>
+                        <table>
+                            <tr>
+                                <th>Memberships</th>
+                                <th colspan="5">&nbsp;</th>
+                                <th class="tborder">Cost</th>
+                                <th class="tborder">Number</th>
+                                <th class="tborder">$Total</th>
+                                
+                            </tr>
+                            <tr>
+                                <td class="center">Senior</td>
+                                <td colspan="5">Person over 65 years of age as of January 1, 2016</td>
+                                <td class="tborder" text-align="center">$60</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+
+                            </tr>
+                            <tr>
+                                <td class="center">Adult</td>
+                                <td colspan="5">Anyone who does not qualify as a Junior or a Senior member</td>
+                                <td class="tborder" text-align="center">$80</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">Family</td>
+                                <td colspan="5">Two Adults and up to three Juniors living at the same address</td>
+                                <td class="tborder" text-align="center">$180</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">Junior</td>
+                                <td colspan="5">Under 18 years of age as of January 1,2016</td>
+                                <td class="tborder" text-align="center">$55</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">Non Prime Time </td>
+                                <td colspan="5">&nbsp;&nbsp;Play is restricted Monday to Friday, 8am to 4pm ONLY</td>
+                                <td class="tborder" text-align="center">$50</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <th colspan ="3">HOUSE LEAGUES: Doubles Only</th>
+                                <td  colspan="3"></td>
+                                <td class="tborder" colspan="4">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="center">MEN's</td>
+                                <td class="center">Monday Night</td>
+                                <td>8 and 9pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SPRING</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">MEN's</td>
+                                <td class="center">Monday Night</td>
+                                <td>8 and 9pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SUMMER</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>                            
+                            </tr>
+                            <tr>
+                                <td class="center">LADIES'</td>
+                                <td class="center">Monday Night</td>
+                                <td>7 and 8pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SPRING</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>
+                            </tr>
+                            <tr>
+                                <td class="center">LADIES'</td>
+                                <td class="center">Monday Night</td>
+                                <td>7 and 8pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SUMMER</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>                            
+                            </tr>
+                            <tr>
+                                <td class="center">MIXED</td>
+                                <td class="center">Wednesday Night</td>
+                                <td>7,8 and 9pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SPRING</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>                            
+                            </tr>
+                            <tr>
+                                <td class="center">MIXED</td>
+                                <td class="center">Wednesday Night</td>
+                                <td>7,8 and 9pm</td>
+                                <td>start times vary weekly</td>
+                                <td colspan="2">SUMMER</td>
+                                <td class="tborder" text-align="center">$20</td>
+                                <td class="tborder"><input type="number" name="num" size="10" tabindex="1"></td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>                            
+                            </tr>
+                            <tr>
+                                <td colspan="6">&nbsp;</td>
+                                <td colspan="2">Total Amount $</td>
+                                <td class="tborder"><input type="text" name="total" size="10" tabindex="1"></td>                            
+
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Payment Informatiom</legend>
+                        <p>
+                            <label></label>
+                            <input type="radio" name="ppal" value="PayPal" tabindex="7">PayPal
+                            <input type="radio" name="ccard" value="Credit Card" tabindex="9">Credit Card
+                            <input type="radio" name="dcard" value="Debit Card" tabindex="9">Debit Card
+                        </p>
+                       
+                    </fieldset>
+                    <fieldset>
+                        <legend>Time Preference</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="chktiming" value="EarlyEve" tabindex="107">Earlier in the evening &nbsp;&nbsp;
+                                    <input type="checkbox" name="chkLateEve" value="LateEve" tabindex="109">Later in the evening <br>
+                                    <input type="checkbox" name="chkSameTime" value="Sametime" tabindex="111">Same time as spouse &nbsp;&nbsp;
+                                    <input type="checkbox" name="chkNTP" value="NTP" tabindex="113">No Time preference
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                            <input type="submit" value="Complete Registration" tabindex="39" name="submit">
+                            <input type="reset" name="reset" value="Start Again" tabindex="41">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Notes</legend>
+                        <p>**** Scarborough Tennis Federation. Interclub competitive leagues - Mens, Ladies and Mixed doubles.</p>
+                    </fieldset>
+                </form>
+            </main>
+            <footer>
+                <p>West Rouge Tennis Club
+                    <br>c/o 1449 Rosebank Rd,
+                    <br>Pickering, ON, L1V 1P3
+                    <br>memberships@wrtctennis.com
+                </p>
+                <a href="https://wrtctennis.com/">www.wrtctennis.com</a>
+                <p id="copyright">&copy;&nbsp;&nbsp;Copyright: Abdallah Divkar -- 301302441 -- COMP213-- Assignment-4 -- Winter 2024</p>
+
+            </footer>
+        </div>
+    </body>
+</html>

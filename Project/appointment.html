@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Taj Wellness Appointment</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" href="images/Tajlogo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="allPage">
+            <header>
+                <div class="navbar">
+                    <ul>
+                        <li><a href ="project.html"><img style="height: 15px; width: 15px;" src="images/home.png" alt="Home"></a></li>
+                        <li><a href ="services.html">Services</a>
+                        <ul class="dropdown">
+                            <li><a href ="services.html">Services</a></li>
+                            <li><a href ="massage.html">Massage</a></li>
+                            <li><a href ="facial.html">Facial</a></li>
+                            <li><a href ="nail.html">Nail Treatment</a></li>
+                        </ul>
+                        <li><a href ="appointment.html">Appointment</a></li>
+                        <li><a href ="survey.html">Survey</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
+                <a href="project.html"><img src="images/Tajbanner.jpg" alt="Taj Retreat Logo" width="1650" height="300"></a>
+            </header>
+            <br>
+            <main>
+                <form action="mailto:adivkar@my.centennialcollege.ca" method="post">
+                    <h2>Book An Appointment</h2>
+                    <p>
+                        <label for="fname">Full Name*</label>
+                        <input type="text" name="fname" size="25" tabindex="1" id="fname" required>
+                    </p>
+                    <p>
+                        <label for="gopt">Gender</label>
+                        <select>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" size="30" tabindex="5" id="email">
+                    </p>
+                    <p>
+                        <label for="telephone">Phone Number*</label>
+                        <input type="tel" name="telephone" placeholder="(###) ###-####" size="30" tabindex="7" id="telephone" required>
+                    </p>
+                    <p>
+                        <label for="gopt">Type of Service</label>
+                        <select>
+                            <option value="massage">Signature Body Massage</option>
+                            <option value="facial">Pure Radiance Renewal Facial</option>
+                            <option value="maniPedi">Natural Bliss Manicure & Pedicure</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="date">Preferred Date & Time*</label>
+                        <input type="datetime-local" id="date" required>
+                    </p>
+                    <h4>Medical Conditions</h4>
+                        <p>
+                            <input type="radio" name="ppal" value="PayPal" tabindex="7">Yes
+                            <input type="radio" name="ccard" value="Credit Card" tabindex="9">No
+                        </p>
+                        <p>
+                            <textarea>--Details (if yes)--</textarea> 
+                        </p>
+                    
+                        <h4>Food Allergies</h4>
+                        <p>
+                            <input type="radio" name="ppal" value="PayPal" tabindex="7">Yes
+                            <input type="radio" name="ccard" value="Credit Card" tabindex="9">No
+                        </p>
+                        <p><textarea>--Details (if yes)--</textarea></p>
+                    <p>
+                        <input type="submit" value="Book Appointment" tabindex="39" name="submit">
+                        <input type="reset" name="reset" value="Start Again" tabindex="41">
+                    </p>
+                    
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
